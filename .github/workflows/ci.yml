@@ -54,7 +54,7 @@ jobs:
       - name: Run migrations
         run: |
           make migratedown
-          y
+          yes
           make migrateup
 
       - name: Test
