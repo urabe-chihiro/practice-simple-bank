@@ -8,7 +8,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/require"
 	db "github.com/techschool/simplebank/db/sqlc"
-	"github.com/techschool/simplebank/db/util"
+	"github.com/techschool/simplebank/util"
 )
 
 func newTestServer(t *testing.T, store db.Store) *Server {
